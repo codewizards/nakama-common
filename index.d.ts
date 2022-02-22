@@ -3147,7 +3147,7 @@ declare namespace nkruntime {
          * @returns Object with authenticated user data.
          * @throws {TypeError, GoError}
          */
-        authenticateTokenGenerate(userId: string, exp: number, vars: {[key: string]: string}): TokenGenerateResult;
+        authenticateTokenGenerate(userId: string, username: string, exp: number, vars: {[key: string]: string}): TokenGenerateResult;
 
         /**
          * Get account data by id.
